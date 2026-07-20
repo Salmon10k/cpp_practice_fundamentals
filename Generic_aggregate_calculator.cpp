@@ -22,9 +22,9 @@ std::cout << "Enter your ITU marks: ";
 std::cin >> ITUmarks;
 std::cout << "Enter your Total ITU marks: ";
 std::cin >> Totalitu;
- Matricpercentage = (Matricmarks / Totalmatric) * 100;
- Interpercentage = (Intermarks / Totalinter) * 100;
- ITUpercentage = (ITUmarks / Totalitu) * 100;
- FINALAGGREGATE = (Matricpercentage*0.15) + (Interpercentage*0.35) + (ITUpercentage*0.50);
+Matricpercentage = (Matricmarks / Totalmatric) * 100;
+Interpercentage = (Intermarks / Totalinter) * 100;
+ITUpercentage = (ITUmarks / Totalitu) * 100;
+FINALAGGREGATE = (Matricpercentage*0.15) + (Interpercentage*0.35) + (ITUpercentage*0.50);
 std::cout << "Your FINAL AGGREGATE is: " << FINALAGGREGATE << "%" << std::endl; 
 }
